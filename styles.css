@@ -78,7 +78,7 @@ body {
 	background: url(https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) center center;
 	background-size: cover;
 	height: 400px;
-	width: 110%;
+	width: 102%;
 	margin-left: -10px;
 	margin-top: 80px;
 }
@@ -257,8 +257,140 @@ body {
 }
 
 
+/*build Section Css */
 
+/*__________________________________________________*/
 
+#build {
+	background-color: black;
+	margin-left: -10px;
+	width: 102%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.sectionHeaderWhite {
+	border-left: 5px solid white;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
 
+.sectionHeaderWhite p {
+	font-size: 35px;
+	color: white;
+	padding-left: 30px;
+	font-weight: 700;
+	margin: 0;
 
+}
+
+.buildMenu h1 {
+	color: white;
+	font-size: 60px;
+	line-height: 100px;
+	margin-left: 60px;
+
+}
+
+.buildRow {
+	display: flex;
+}
+
+.activeMenu {
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+	box-sizing: border-box;
+
+}
+
+.active {
+	color: white;
+	padding-left: 270px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	padding-right: 65px;
+}
+
+/*Share Section Css */
+
+/*__________________________________________________*/
+
+#share {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.shareContainer {
+	display: flex;
+	width: 100%;
+}
+
+/*breakpoint to 33% width at 992px and 50% at 768px*/
+.contributeCol {
+	width: 40%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.discussionsCol {
+	width: 55%;
+	margin-left: 25px;
+	padding-right: 15px;
+	padding-top: 17px;
+}
+
+.imageHeader {
+	text-align: center;
+	margin: 40px 0 40px 0;
+}
+
+.imageHeader p {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 0;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.list a {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	border-top: solid 1px black;
+	/*border-bottom: solid 1px black;*/
+	/*margin: 15px 25px 15px 25px;*/
+	padding: 15px 25px 15px 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.list a span {
+	font-size: 20px;
+	font-weight: 400px;
+	line-height: 24px;
+	/*word-wrap: break-word;*/
+}
+
+.list a:hover {
+	opacity: 0.6;
+}
+
+.lastList {
+	border-bottom: solid 1px black;
+}
+
+.list a img {
+	max-width: 100%;
+	height: 24px;
+	vertical-align: middle;
+}
 
