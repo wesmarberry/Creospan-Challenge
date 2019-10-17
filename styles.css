@@ -1,0 +1,264 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*Navbar Css */
+
+/*__________________________________________________*/
+.navBar {
+	position: fixed;
+	top: 0;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	width: 100%;
+	/*align-items: baseline;*/
+}
+
+.navLinkContainer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+	list-style: none;
+}
+
+.navLinkContainer {
+	display: flex;
+	/*align-items: baseline;*/
+}
+
+.navLink a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding-right: 40px;
+
+}
+
+.navLink a:hover {
+	opacity: 0.8;
+}
+
+.navLink a img {
+	width: 25px;
+	opacity: 0.7;
+	margin-top: 10px;
+}
+
+.navLink a img:hover {
+	opacity: 1;
+}
+
+.logoHeader {
+	flex-direction: row;
+	display: flex;
+	align-items: flex-end;
+}
+
+.logoHeader img {
+	height: 70px;
+	padding: 5px;
+}
+
+.logoHeader span {
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+/*Upper Image Css */
+
+/*__________________________________________________*/
+
+.upperImage {
+	background: url(https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80) center center;
+	background-size: cover;
+	height: 400px;
+	width: 110%;
+	margin-left: -10px;
+	margin-top: 80px;
+}
+
+.upperImage div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
+
+.upperImage div div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+ 
+.smallSpan, .largeSpan {
+	color: white;
+}
+
+.smallSpan {
+	font-size: 1.75rem;
+}
+
+.largSpan {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+/*Explore Section Css */
+
+/*__________________________________________________*/
+
+#explore {
+	padding: 80px 0 40px 0;
+}
+
+.sectionHeader {
+	border-left: 5px solid black;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.sectionHeader p {
+	font-size: 35px;
+	color: black;
+	padding-left: 30px;
+	font-weight: 700;
+	margin: 0;
+
+}
+
+.fadedHeader {
+	color: #d7d7d7;
+	font-weight: 400;
+}
+
+.exploreItems {
+	display: flex;
+	justify-content: space-between;
+	flex-shrink: 1;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+}
+
+.exploreItem {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: .5s all linear;
+}
+
+.exploreItem:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.exploreItem img {
+	max-height: 115px;
+	width: 100%;
+	max-width: 115px;
+}
+
+.exploreItem div {
+	/*display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;*/
+	font-size: 20px;
+	text-align: center;
+}
+
+.exploreItem div p {
+	margin-top: 0;
+}
+
+.exploreDescription {
+	display: none;
+}
+
+/*Learn Section Css */
+
+/*__________________________________________________*/
+
+#learn {
+	padding-top: 40px;
+	width: 100%;
+}
+
+.learnContainer {
+	display: flex;
+	/*flex-wrap: wrap;*/
+	width: 100%;
+	margin-top: 60px;
+}
+
+.leftDiv, .rightDiv {
+	/*flex-basis: 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	display: flex;*/
+	width: 50%;
+}
+
+.leftDiv div {
+	display: flex;
+	flex-direction: row;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.row div {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.row div img {
+	width: 100%
+	height: 100%;
+}
+
+.row div p {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+.rightDiv img {
+	width: 100%;
+
+}
+
+.rightDiv {
+	padding-left: 15px;
+}
+
+.rightDiv p {
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+
