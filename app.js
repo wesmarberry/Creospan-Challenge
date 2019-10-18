@@ -65,7 +65,17 @@ $('.askMenuItem').on('click', (e) => {
 	$('.' + e.currentTarget.id).addClass('askActiveItems')
 })
 
-$('.askActiveItems').on('click', (e) => {
+$('.askItems ul li span').on('click', (e) => {
+	console.log(e.currentTarget.id);
+	console.log('hitting ask items');
+	
+
+		$('.askItems ul li span').removeClass('askActiveListItem')
+		$('#' + e.currentTarget.id).addClass('askActiveListItem')
+
+		$('.askItem').removeClass('activeAskDescription')
+		$('.' + e.currentTarget.id).addClass('activeAskDescription').fadeIn(500)
+		
 	
 })
 
