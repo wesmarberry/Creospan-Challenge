@@ -45,14 +45,48 @@
 				</li>
 			</ul>
 		</div>
-
+		
+			
 		<div class='burgerIcon'>
 			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png">
 		</div>
+			
+		
+
+		
 
 
 
+	</div>
+	<div class='dropdownContainer'>
+		<div id='dropdown'>
+				<ul>
+					<li class='navLink' href="#explore">
+						<a >Explore</a>
+					</li>
 
+					<li class='navLink' href="#learn">
+						<a>Learn</a>
+					</li>
+
+					<li class='navLink' href="#build">
+						<a >Build</a>
+					</li>
+
+					<li class='navLink' href="#share">
+						<a >Share</a>
+					</li>
+
+					<li class='navLink' href="#ask">
+						<a>Ask</a>
+					</li>
+
+					<li class='navLink'>
+						<a href=""><img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/search.png"></a>
+					</li>
+				</ul>
+				
+			</div>
 	</div>
 
 
@@ -76,7 +110,7 @@
 
 		<div class='exploreItems'>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='predictiveMaintenance'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/predictive-maintenance.png">
 				<div>
@@ -85,7 +119,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='inventoryOptimization'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/optimize-inventory.png">
 				<div>
@@ -94,7 +128,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='energyManagement'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/energy-management.png">
 				<div>
@@ -103,7 +137,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='antiMoneyLaundering'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/money-laundering.png">
 				<div>
@@ -112,7 +146,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='sensorHealth'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/sensor-health.png">
 				<div>
@@ -121,7 +155,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='fraudDetection'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/fraud-detection.png">
 				<div>
@@ -130,7 +164,7 @@
 				
 			</div>
 
-			<div class='exploreItem'>
+			<div class='exploreItem' id='crm'>
 
 				<img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/crm.png">
 				<div>
@@ -169,7 +203,7 @@
 
 		</div>
 
-		<div class='exploreDescription antiMoneylaundering'>
+		<div class='exploreDescription antiMoneyLaundering'>
 			<div class='exploreText'>
 				<p>an AI-enabled, workflow-centric application that uses comprehensive machine learning techniques to reduce false positive alerts while increasing true Suspicious Activity Report (SAR) identification.</p>
 			</div>
@@ -264,19 +298,36 @@
 
 		<div class='buildRow'>
 			<div class='buildMenu'>
-				<h1 class='menuItem activeMenu'>Identify</h1>
-				<h1 class='menuItem'>Gather</h1>
-				<h1 class='menuItem'>Build</h1>
+				<h1 class='menuItem activeMenu' id='identify'><span>Identify</span></h1>
+				<h1 class='menuItem' id='gather'><span>Gather</span></h1>
+				<h1 class='menuItem' id='buildMenu1'><span>Build</span></h1>
 			</div>
 
 			<div class='buildDescription'>
-				<div class='identify active'>
+				<div class='active buildDesc identify'>
 					<p>
 						Define and finalize business needs, tactical objectives, goals, priorities, case-studies, and roadmap. Identify available data, gaps in data and models 
 					</p>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 					</p>
+					<button class='whiteBtn'>Learn More</button>
+
+				</div>
+
+				<div class='buildDesc gather'>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<button class='whiteBtn'>Learn More</button>
+
+				</div>
+
+				<div class='buildDesc buildMenu1'>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+					</p>
+					<button class='whiteBtn'>Learn More</button>
 
 				</div>
 			</div>
@@ -312,8 +363,8 @@
 					<a href="#"><div><span>C3 AI. 1 duis aute irure dolor in reprehenderit in...</span></div><img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/link-arrow.png"></a>
 					<a href="#"><span>C3 AI ullamco laboris misi ut aliquip ex ea com...</span><img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/link-arrow.png"></a>
 					<a class='lastList' href="#"><span>RFC: Lorem ipsum dolor sit amet consectetur...</span><img src="http://ec2-18-191-238-231.us-east-2.compute.amazonaws.com/c3ai/wp-content/themes/c3ai/images/link-arrow.png"></a>
-					<p href="http://communit.c3.ai">View More</p>
 				</div>
+				<p class='viewMore' href="http://communit.c3.ai">View More</p>
 
 			</div>
 
