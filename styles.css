@@ -1514,6 +1514,10 @@ body {
 	font-weight: 400;
 }
 
+.askItems ul li span {
+
+}
+
 .askActiveMenu {
 	border-bottom: 2px solid white;
 }
@@ -1550,6 +1554,7 @@ body {
 
 .askActiveItems ul li span:hover {
 	border-bottom: 1px solid white;
+	cursor: pointer;
 }
 }
 
