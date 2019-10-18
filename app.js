@@ -70,11 +70,11 @@ $('.askItems ul li span').on('click', (e) => {
 	console.log('hitting ask items');
 	
 
-		$('.askItems ul li span').removeClass('askActiveListItem')
-		$('#' + e.currentTarget.id).addClass('askActiveListItem')
+	$('.askItems ul li span').removeClass('askActiveListItem')
+	$('#' + e.currentTarget.id).addClass('askActiveListItem')
 
-		$('.askItem').removeClass('activeAskDescription')
-		$('.' + e.currentTarget.id).addClass('activeAskDescription').fadeIn(500)
+	$('.askItem').removeClass('activeAskDescription')
+	$('.' + e.currentTarget.id).addClass('activeAskDescription').fadeIn(500)
 		
 	
 })

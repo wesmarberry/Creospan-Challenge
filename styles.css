@@ -1245,7 +1245,7 @@ body {
 /*__________________________________________________*/
 
 #build {
-	background-color: black;
+	background: url('./images/background2.jpg') center center;
 	margin-left: -10px;
 	width: 103%;
 	padding-top: 80px;
@@ -1467,7 +1467,8 @@ body {
 
 #ask {
 	padding: 40px 0 40px 0;
-	background-color: black;
+	background: url('./images/background3.jpg') center center;
+	background-size: cover;
 	margin-left: -10px;
 	width: 102%;
 }
@@ -1544,9 +1545,6 @@ body {
 	display: none;
 }
 
-.activeAskDescription {
-	display: block;
-}
 .askActiveItems {
 	opacity: 1;
 	color: white;
@@ -1570,6 +1568,9 @@ body {
 	margin-bottom: 0;
 }
 
+.activeAskDescription {
+	display: block;
+}
 .askItem div {
 	display: flex;
 	font-size: 25px;
@@ -1584,6 +1585,37 @@ body {
 
 .askItem div div p {
 	margin-top: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+	.askContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.contentContainer {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.contentContainer div {
+		display: flex;
+		flex-direction: column;
+	}
+	.askItems {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.interact ul {
+		margin-top: 0;
+	}
+
+	.askItem div {
+		flex-direction: column;
+	}
 }
 
 /*Events Items Css */
@@ -1601,10 +1633,16 @@ body {
 }
 
 #eventImg {
-	width: 97%;
+	width: 97.5%;
 	padding-left: 15px;
 	padding-right: 15px;
 
+}
+
+@media only screen and (max-width: 865px) {
+	#eventImg {
+		width: 97%;
+	}
 }
 
 /*.eventsContainer img {
