@@ -58,7 +58,16 @@ $('.menuItem').on('click', (e) => {
 	// })
 })
 
+$('.askMenuItem').on('click', (e) => {
+	$('.askMenuItem').removeClass('askActiveMenu')
+	$('#' + e.currentTarget.id).addClass('askActiveMenu')
+	$('.askItems').removeClass('askActiveItems')
+	$('.' + e.currentTarget.id).addClass('askActiveItems')
+})
 
+$('.askActiveItems').on('click', (e) => {
+	
+})
 
 
 
