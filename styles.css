@@ -1107,9 +1107,9 @@ body {
 }
 
 .exploreItem img {
-	max-height: 120px;
+	max-height: 150px;
 	width: 100%;
-	max-width: 120px;
+	max-width: 130px;
 }
 
 .exploreItem div {
