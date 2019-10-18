@@ -1527,7 +1527,7 @@ body {
 	background: url('./images/background3.jpg') center center;
 	background-size: cover;
 	margin-left: -10px;
-	width: 102%;
+	width: 103%;
 }
 
 .askContainer {
@@ -1626,7 +1626,8 @@ body {
 }
 
 .activeAskDescription {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 .askItem div {
 	display: flex;
