@@ -23,12 +23,13 @@ console.log("js hooked up");
 //Event listener for explore section
  $('.exploreItem').on('click', async (e) => {
  	console.log(e.currentTarget.id);
- 	await $('.' + e.currentTarget.id).fadeToggle(500, () => {
- 		$('.' + e.currentTarget.id).css('display', 'flex')
- 	})
+ 	// await $('.' + e.currentTarget.id).fadeToggle(500, () => {
+ 	// 	$('.' + e.currentTarget.id).css('display', 'flex')
+ 	// })
  	$('.exploreDescription').css('display', 'none')
  	$('.exploreItem div').css('border', 'none')
  	$('.exploreItem').css('opacity', '0.4')
+ 	$('.exploreDescription').removeClass('activeDescription')
  	if (e.currentTarget.id !== 'predictiveMaintenance') {
 	 	$('#'+ e.currentTarget.id + ' div').css('border-left', '5px solid black')
  		
@@ -39,8 +40,9 @@ console.log("js hooked up");
  		
  	}
  	$('#' + e.currentTarget.id).css('opacity', '1')
- 	// $('#' + e.currentTarget.id).css('display', 'flex')
  	$('.exploreItems').css('border-bottom', '5px solid black')
+ 	$('.' + e.currentTarget.id).addClass('activeDescription').fadeIn(500)
+ 	$('.' + e.currentTarget.id).css('display', 'flex')
  })
 
 //event listener for build section
