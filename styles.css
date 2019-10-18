@@ -1451,6 +1451,7 @@ body {
 .viewMore {
 	text-align: right;
 	font-size: 19px;
+	padding-right: 15px;
 	/*padding-top: 10px;
 	margin-right: -8px;*/
 }
@@ -1461,6 +1462,24 @@ body {
 	width: auto;
 }
 
+@media only screen and (max-width: 1025px) {
+	.viewMore {
+		padding-right: 8px;
+	}
+}
+
+@media only screen and (max-width: 855px) {
+	.viewMore {
+		padding-right: 4px;
+	}
+}
+
+
+@media only screen and (max-width: 770px) {
+	.viewMore {
+		margin-right: -20px;
+	}
+}
 /*Ask Section Css */
 
 /*__________________________________________________*/
